@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="29.3.8">
+  <diagram name="第 1 页" id="w4ZA50E8kCbBgHyNOxgR">
+    <mxGraphModel dx="1546" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="function Person(){..}&lt;br&gt;构造函数" vertex="1">
+          <mxGeometry height="60" width="120" x="699.5" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Person.prototype&lt;div&gt;原型对象&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="904" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="person&lt;br&gt;对象实例" vertex="1">
+          <mxGeometry height="60" width="120" x="1108.5" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-11" edge="1" parent="1" source="MpmYFoeDjHWk8ldUos-h-8" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="MpmYFoeDjHWk8ldUos-h-6" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1084" y="810" as="sourcePoint" />
+            <mxPoint x="1184" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-12" connectable="0" parent="MpmYFoeDjHWk8ldUos-h-11" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="person._proto_" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-13" edge="1" parent="1" source="MpmYFoeDjHWk8ldUos-h-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="MpmYFoeDjHWk8ldUos-h-8" value="var person = new Person()">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="828.5" y="700" as="sourcePoint" />
+            <mxPoint x="878.5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-14" edge="1" parent="1" source="MpmYFoeDjHWk8ldUos-h-1" style="endArrow=classic;html=1;rounded=0;exitX=0.406;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="MpmYFoeDjHWk8ldUos-h-6" value="Person.prototype">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="904" y="780" as="sourcePoint" />
+            <mxPoint x="954" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-15" edge="1" parent="1" source="MpmYFoeDjHWk8ldUos-h-6" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="MpmYFoeDjHWk8ldUos-h-16" value="Person.prototype._proto_">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1030" y="520" as="sourcePoint" />
+            <mxPoint x="900" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Object.prototype&lt;br&gt;原型对象" vertex="1">
+          <mxGeometry height="60" width="120" x="699.5" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="function Object(){..}&lt;br&gt;构造函数" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-18" edge="1" parent="1" source="MpmYFoeDjHWk8ldUos-h-17" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MpmYFoeDjHWk8ldUos-h-6" value="new Object">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="620" as="sourcePoint" />
+            <mxPoint x="850" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-19" edge="1" parent="1" source="MpmYFoeDjHWk8ldUos-h-17" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="MpmYFoeDjHWk8ldUos-h-16" value="Object.prototype">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="730" y="560" as="sourcePoint" />
+            <mxPoint x="780" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-20" edge="1" parent="1" source="MpmYFoeDjHWk8ldUos-h-16" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="MpmYFoeDjHWk8ldUos-h-21" value="Object.prototype._proto_">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="740" y="450" as="sourcePoint" />
+            <mxPoint x="630" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MpmYFoeDjHWk8ldUos-h-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="null" vertex="1">
+          <mxGeometry height="60" width="120" x="440" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
